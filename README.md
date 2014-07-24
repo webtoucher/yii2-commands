@@ -33,7 +33,7 @@ namespace app\components;
 use webtoucher\commands\Controller;
 
 
-abstract class CommandController extends Controller
+class CommandController extends Controller
 {
     public function actionRun()
     {
@@ -42,7 +42,7 @@ abstract class CommandController extends Controller
 }
 ```
 
-You can run your command with flag `--y` to answer 'Yes' for every confirms:
+You can run your command with flag `--y` to answer 'yes' for every confirms:
 
 ```bash
 $ php yii command --y
