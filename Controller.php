@@ -34,7 +34,7 @@ abstract class Controller extends \yii\console\Controller
     {
         return array_merge(
             parent::options($actionId),
-            ['y'],
+            ['y']
         );
     }
 
